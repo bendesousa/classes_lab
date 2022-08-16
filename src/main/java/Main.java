@@ -5,6 +5,14 @@ public class Main {
         int myBalance = myAccount.getBalance();
 
         System.out.println(myBalance);
+
+        Circle myCircle = new Circle(13);
+        double radiusCircle = myCircle.getRadius();
+        double circumferenceCircle = myCircle.getCircumference();
+
+        System.out.println(radiusCircle);
+        System.out.println(circumferenceCircle);
     }
+
 
 }
