@@ -16,7 +16,18 @@ public class Main {
         System.out.println(circumferenceCircle);
 
 //        Rectangle Class test
-        
+        Rectangle myRectangle = new Rectangle(12, 6);
+        double lengthRectangle = myRectangle.getLength();
+        double widthRectangle = myRectangle.getWidth();
+        double perimeterRectangle = myRectangle.getPerimeter();
+        double areaRectangle = myRectangle.getArea();
+        double diagonalRectangle = myRectangle.getDiagonal();
+
+        System.out.println(lengthRectangle);
+        System.out.println(widthRectangle);
+        System.out.println(perimeterRectangle);
+        System.out.println(areaRectangle);
+        System.out.println(diagonalRectangle);
     }
 
 
