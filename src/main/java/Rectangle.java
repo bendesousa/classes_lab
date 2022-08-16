@@ -17,7 +17,6 @@ public class Rectangle {
 
 //    Methods
 
-
     public double getLength() {
         return length;
     }
