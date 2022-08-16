@@ -28,6 +28,13 @@ public class Main {
         System.out.println("Perimeter of the Rectangle: " + perimeterRectangle);
         System.out.println("Area of the Rectangle: " + areaRectangle);
         System.out.println("Diagonal of the Rectangle: " + diagonalRectangle);
+
+//        Customer Class test
+        Customer myCustomer = new Customer("John", "Smith", 1000);
+
+        int customerId = myCustomer.getId();
+
+        System.out.println("Customer ID: " + customerId);
     }
 
 
