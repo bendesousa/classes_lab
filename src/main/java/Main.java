@@ -37,12 +37,14 @@ public class Main {
         String lastName = myCustomer.getLastName();
         double heldMoney = myCustomer.getHeldMoney();
         String fullName = myCustomer.getFullName();
+        double subtractMoneyHeld = myCustomer.getSubtractMoneyHeld();
 
         System.out.println("Customer ID: " + customerId);
         System.out.println("Customer First Name: " + firstName);
         System.out.println("Customer Last Name: " + lastName);
         System.out.println("Customer Held Money: " + heldMoney);
         System.out.println("Customer Full Name: " + fullName);
+        System.out.println("Customer value after subtracting money held: " + subtractMoneyHeld);
     }
 
 

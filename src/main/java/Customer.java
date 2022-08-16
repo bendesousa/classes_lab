@@ -16,7 +16,7 @@ public class Customer {
         this.lastName = lastName;
         this.heldMoney = heldMoney;
         this.fullName = firstName + " " + lastName;
-        this.subtractMoneyHeld
+        this.subtractMoneyHeld = (10000 - heldMoney);
     }
 
 //    Methods
@@ -59,6 +59,14 @@ public class Customer {
 
     public void setFullName(String fullName) {
         this.fullName = fullName;
+    }
+
+    public double getSubtractMoneyHeld() {
+        return subtractMoneyHeld;
+    }
+
+    public void setSubtractMoneyHeld(double subtractMoneyHeld) {
+        this.subtractMoneyHeld = subtractMoneyHeld;
     }
 
     @Override
