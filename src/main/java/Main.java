@@ -33,8 +33,16 @@ public class Main {
         Customer myCustomer = new Customer("John", "Smith", 1000);
 
         int customerId = myCustomer.getId();
+        String firstName = myCustomer.getFirstName();
+        String lastName = myCustomer.getLastName();
+        double heldMoney = myCustomer.getHeldMoney();
+        String fullName = myCustomer.getFullName();
 
         System.out.println("Customer ID: " + customerId);
+        System.out.println("Customer First Name: " + firstName);
+        System.out.println("Customer Last Name: " + lastName);
+        System.out.println("Customer Held Money: " + heldMoney);
+        System.out.println("Customer Full Name: " + fullName);
     }
 
 

@@ -6,6 +6,7 @@ public class Customer {
     String lastName;
     double heldMoney;
     String fullName;
+    double subtractMoneyHeld;
 
     public Customer(String firstName, String lastName, double heldMoney){
         int min = 1;
@@ -14,7 +15,8 @@ public class Customer {
         this.firstName = firstName;
         this.lastName = lastName;
         this.heldMoney = heldMoney;
-        this.fullName = firstName + lastName;
+        this.fullName = firstName + " " + lastName;
+        this.subtractMoneyHeld
     }
 
 //    Methods
@@ -41,6 +43,22 @@ public class Customer {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public double getHeldMoney() {
+        return heldMoney;
+    }
+
+    public void setHeldMoney(double heldMoney) {
+        this.heldMoney = heldMoney;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
     @Override
